@@ -3,4 +3,11 @@
 
   2. Our dataset is from a mobile blood donation vehicle in Taiwan. The Blood Transfusion Service Center drives to different universities and collects blood as part of a blood drive. We want to predict whether or not a donor will give blood the next time the vehicle comes to campus.
 
-  3. The data is stored in datasets/transfusion.data and it is structured according to RFMTC marketing model (a variation of RFM). We'll explore what that means later in this notebook. First, let's inspect the data.
+  3. Libraries Used:
+                    - Pandas
+                    - Numpy
+                    - Scikit Learn
+                    - Tpot
+  4. Operations Performed:
+                    - Used **Logistic Regression** as suggested to be best method By **TPOT library**
+                
